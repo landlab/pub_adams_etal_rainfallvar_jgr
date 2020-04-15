@@ -205,3 +205,15 @@ while i < 1558: #depth <= 20000.:
     #     g = zip(dictionary_data, equals, dictionary_data2)
 
     i+=1
+
+
+np.savetxt('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20mGeneral/peak_q_20m.txt', peak_q)
+write_esri_ascii('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20mGeneral/topographic_elevation_depth20m.asc', rmg, 'topographic__elevation')
+write_esri_ascii('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20m_HalfMtrThresh_Diffusion_Tc1/topographic_elevation_depth20m_tc1.asc', rmg1, 'topographic__elevation')
+write_esri_ascii('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20m_HalfMtrThresh_Diffusion_Tc10/topographic_elevation_depth20m_tc10.asc', rmg10, 'topographic__elevation')
+write_esri_ascii('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20m_HalfMtrThresh_Diffusion_Tc5/topographic_elevation_depth20m_tc5.asc', rmg5, 'topographic__elevation')
+
+np.savetxt('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20m_HalfMtrThresh_Diffusion_Tc0/total_eroded_depth.txt', total_incision_depth)
+np.savetxt('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20m_HalfMtrThresh_Diffusion_Tc1/total_eroded_depth.txt', total_incision_depth1)
+np.savetxt('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20m_HalfMtrThresh_Diffusion_Tc5/total_eroded_depth.txt', total_incision_depth5)
+np.savetxt('/Users/Jordan/Documents/GitHub/pub_adams_etal_rainfallvar_jgr/_codes/_figurecodes/_data/highRvar/steadystate/20m_HalfMtrThresh_Diffusion_Tc10/total_eroded_depth.txt', total_incision_depth10)
