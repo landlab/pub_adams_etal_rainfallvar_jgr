@@ -1,0 +1,13 @@
+k_e  =  1e-13
+alpha  =  0.2
+h_init  =  1e-05
+mannings_n  =  0.0724906049215
+mean storm dur   =  11.75
+mean interstorm dur  =  146.25
+mean storm depth  =  4.775
+mean intensity  =  0.406382978723
+threshold  =  0.5
+tau_crit  =  variable tau crit
+diffusion coeff  =  0.1
+total rain depth   =  20016.5186
+summed erosion depth  =  2.68744014905
