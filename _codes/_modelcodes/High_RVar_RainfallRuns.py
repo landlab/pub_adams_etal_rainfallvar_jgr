@@ -9,6 +9,9 @@ nonsteady hydrology method.
 
 It uses parameters from a High RVar Site (see Istanbulluoglu and Bras [2006]).
 
+Please note:
+The nonsteady codes can take several days to run a total of 20 m rainfall.
+
 Created by Jordan M. Adams
 Updated in April 2020
 

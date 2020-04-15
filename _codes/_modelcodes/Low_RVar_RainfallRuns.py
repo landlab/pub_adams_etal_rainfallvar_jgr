@@ -4,10 +4,13 @@
 Low_RVar_RainfallRuns.py
 
 This code can be used to simulate a rainfall time series, calculating discharge
-and erosion rates until 20 m total rainfall depth is reached, using a 
+and erosion rates until 20 m total rainfall depth is reached, using a
 nonsteady hydrology method.
 
 It uses parameters from a Low RVar Site (see Istanbulluoglu and Bras [2006]).
+
+Please note:
+The nonsteady codes can take several days to run a total of 20 m rainfall.
 
 Created by Jordan M. Adams
 Updated in April 2020
